@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ready edge
-        run: echo Hello, world!
+        run: sleep 1m
   job2:
     name: Normalize Player Username
     runs-on: ubuntu-latest
