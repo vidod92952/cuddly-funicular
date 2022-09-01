@@ -2,15 +2,15 @@ name: test
 on:
   workflow_dispatch:
 jobs:
-  ready_edge:
+  job1:
     name: Ready Edge
     runs-on: ubuntu-latest
     steps:
       - name: Ready edge
         run: echo Hello, world!
-
-      - name: Normalize Player Username
-        run: echo Hello, world!
-        
-      - name: Fetch game information
+  job2:
+    name: Normalize Player Username
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ready edge
         run: echo Hello, world!
