@@ -11,6 +11,7 @@ jobs:
   job2:
     name: Normalize Player Username
     runs-on: ubuntu-latest
+    needs: job1
     steps:
       - name: Ready edge
-        run: echo Hello, world!
+        run: sleep 3s
