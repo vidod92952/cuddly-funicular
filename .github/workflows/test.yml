@@ -2,7 +2,6 @@ name: test
 on: []
 jobs:
   ready_edge:
-    name: Ready Edge
     runs-on: ubuntu-latest
     steps:
       - name: Ready edge
