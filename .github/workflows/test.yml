@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 jobs:
-  build:
+  ready_edge:
     runs-on: ubuntu-latest
     steps:
       - name: Ready edge
